@@ -1,0 +1,14 @@
+-   A `.gitignore` file can be created and used to prevent particular
+    files from being included in a commit. For example, you could find
+    the following in a `.gitignore` file:
+
+<!-- -->
+
+    # Ignores files of varying extensions
+    *.dmg
+    *.gz
+    *.iso
+    *.jar
+    *.rar
+    *.tar
+    *.zip
