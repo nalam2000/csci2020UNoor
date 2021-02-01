@@ -1,0 +1,27 @@
+plugins {
+	id 'java'
+	id 'application'
+	// ...
+}
+
+/* Main Class Definition */
+
+mainClassName = '<package>.<subpackage>.<MainClassName>'
+
+/* Repositories Block */
+// Reference: https://docs.gradle.org/current/userguide/declaring_dependencies.html
+
+repositories {
+	mavenCentral() // Uses the 'Maven Central' repository for fetching libraries
+	// ...
+}
+
+/* Dependencies Block */
+// Reference: https://docs.gradle.org/current/userguide/declaring_dependencies.html
+
+dependencies {
+	implementation 'com.example.library' // Fetches library specified for main source code
+	// ...
+	testImplementation 'junit:junit:4.13' // Fetches library 'junit' for test source
+	// ...
+}
