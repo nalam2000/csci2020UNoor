@@ -1,0 +1,1 @@
+The info.xml file and Ducks.png file is inside the src folder. Please Run it from there.
